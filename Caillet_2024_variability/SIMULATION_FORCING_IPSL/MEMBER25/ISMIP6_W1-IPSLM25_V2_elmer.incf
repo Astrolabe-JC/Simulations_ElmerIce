@@ -1,0 +1,50 @@
+!###################### FILE ########################
+! WARNING : the number of characters is limited to 128.
+!
+! define simulation name
+$name="ISMIP6_W1-IPSLM25_V2"
+!
+! define data_dir
+$data_dir = "/ccc/work/cont003/gen6066"
+!
+! define output_dir
+$out_dir = "/ccc/scratch/cont003/gen6066/cailletj/ELMER/ISMIP6_W1/ISMIP6_W1-IPSLM25_V2/ISMIP6_W1-IPSLM25_V2_S"
+!
+!-----------------------------------------------------------
+! BMB files
+!-----------------------------------------------------------
+! define the PICO file
+$file_pico = "cailletj/CMIP6/FORCING/OCEAN/IPSL_R25_SSP245_years_PICO_Burgard_meanbottom.nc"
+!
+! define the quadratic local file
+! TOADD once solver and file ready
+!
+!-----------------------------------------------------------
+! SMB files
+!-----------------------------------------------------------
+! define smb reference file
+$file_smb = "gen6066/ISMIP6/ISMIP6_ANT/FORCING/ATMOSPHERE/REFERENCE/RACMO/racmo_ant50.gl1_19952014_smbice_days.nc"
+!
+$file_asmb = "cailletj/CMIP6/FORCING/ATMO/MAR-IPSL-CM6A-LR-r1i1p1f1_asmb_2015-2100_ssp245_ant50.gl1.nc"
+!
+!-----------------------------------------------------------
+! Post Processing files
+!-----------------------------------------------------------
+! define basin file (PICO basins)
+$file_basins = "gen6066/ISMIP6/ISMIP6_ANT/BASIN/schmidtko_initmip8km_means.nc"
+$var_Reese = "basins"
+!
+! define basin file (iceshelf basins)
+$file_basins_isf = "gen6066/ISMIP6/ISMIP6_ANT/BASIN/Mask_Iceshelf_IMBIE.nc"
+$var_isf = "Iceshelf_extrap"
+!
+! define basin file (IMBIE basins)
+$file_basins_IMBIE = "gen6066/ISMIP6/ISMIP6_ANT/BASIN/Mask_SubRegions_IMBIE.nc"
+$var_IMBIE_basin = "SubBasins_extrap"
+!
+! define basin file (IMBIE area)
+$file_areas_IMBIE = "gen6066/ISMIP6/ISMIP6_ANT/BASIN/Mask_Regions_IMBIE.nc"
+$var_IMBIE_area = "Basins_extrap"
+!
+! define true cell area
+$truecellarea = "gen6066/ISMIP6/ISMIP6_ANT/GRID/true_cell_area.nc"
