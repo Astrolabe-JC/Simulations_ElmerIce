@@ -12,7 +12,9 @@ see https://github.com/pmathiot/ELMER_ISMIP6_Antarctica/releases/tag/v2023.0 for
   - 4 with UKESM1-0-LL forcing : 4 members for ocean (members 1, 2, 4 and 8) and member 1 for atmosphere)
   - 2 with MPI-ESM1.2-HR forcing : 2 members for ocean (members 1, 2) and member 1 for atmosphere)
  
-* Correction of ocean T° for PICO melt parameterisation to match observed estimates (Adusumilli et al. 2020) are also added.
+* Correction of ocean T° for PICO melt parameterisation to match observed estimates (Adusumilli et al. 2020) are also added in Correction_MELT
+
+* Ouput in term of sea level rise are availaible for each forcing in OUTPUT_SeaLevel
 
 * Output, initial state and forcing files available on request to <justine.caillet@univ-grenoble-alpes.fr> 
 
