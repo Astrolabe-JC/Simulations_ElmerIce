@@ -4,8 +4,7 @@ Paper submitted to Earth System Dynamics
 
 * ElmerIce v7.0 : compilation TGCC - elmerfem-29fd3bf4_bis-opt. 
   
-* Antarctic configuration derived from ISMIP6-2300 project 
-see https://github.com/pmathiot/ELMER_ISMIP6_Antarctica/releases/tag/v2023.0 for more explanations.
+* Antarctic configuration derived from ISMIP6-2300 project : see https://github.com/pmathiot/ELMER_ISMIP6_Antarctica/releases/tag/v2023.0 for more explanations.
 
 * Simulations until 2100 under medium SSP2-4.5 scenario:
   - 5 with IPSL-CM6A-LR forcing : 5 members for ocean (members 1, 3, 6, 11, 25) and member 1 for atmosphere)
